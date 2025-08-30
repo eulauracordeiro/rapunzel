@@ -20,7 +20,7 @@ h1{
      color: rgb(53, 5, 67);
 }
 body{
-    background-color: rgb(221, 150, 234);
+    background-color: rgb(234, 191, 242);
 }
 h2{
     font-size: 45px;
@@ -41,4 +41,48 @@ h2{
 }
 p{
     font-size: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #e7dced;
+}
+thead {
+    background-color: #4c0663;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+tbody {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #DDD;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #efc9f7;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d866f4;
+}
+tr td ul{
+      list-style-type: none;
+}
+footer {
+    background-color: #a061a9;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    font-size: 40px;
+    color: white;
 }
