@@ -68,7 +68,7 @@ td {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #efc9f7;
+    background-color: #f8f9b8;
 }
 
 tbody tr:nth-child(even) {
